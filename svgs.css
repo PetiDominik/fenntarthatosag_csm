@@ -1,0 +1,67 @@
+svg{
+    transition: 0.5s;
+}
+  
+.tiktokCol1, .tiktokCol2 {
+    fill: transparent;
+    transition: 0.5s;
+}
+.tiktokCol3{
+    fill: #EAE7B1;
+    transition: 0.5s;
+}
+#tiktokIcon:hover .tiktokCol1 {
+    fill: #26f4ee;
+}
+  
+#tiktokIcon:hover .tiktokCol2{
+    fill: #fb2c53;
+}
+#tiktokIcon:hover .tiktokCol3{
+    fill: #fff;
+}
+  
+#fbIcon{
+    fill: #EAE7B1;
+}
+#fbIcon:hover{
+    fill:#4c6baf;
+}
+  
+  
+.instaCol1, .instaCol2, .instaCol3, .instaCol4, .instaCol5, .instaCol6, .instaCol7, .instaCol8{
+    stop-color: #EAE7B1;
+    transition: 0.5s;
+}
+  
+#instaIcon:hover .instaCol1{
+    stop-color: rgb(255,214,0);
+}
+#instaIcon:hover .instaCol2{
+    stop-color:rgb(255,1,0);
+}
+#instaIcon:hover .instaCol3{
+    stop-color:rgb(216,0,185);
+}
+#instaIcon:hover .instaCol4{
+    stop-color:rgb(255,100,0);
+}
+#instaIcon:hover .instaCol5{
+    stop-color:rgb(255,1,0);
+}
+#instaIcon:hover .instaCol6{
+    stop-color:rgb(253,0,86);
+}
+#instaIcon:hover .instaCol7{
+    stop-color:rgb(243,0,114);
+}
+#instaIcon:hover .instaCol8{
+    stop-color:rgb(229,0,151);
+}
+
+.userIcon{
+    fill: #EAE7B1;
+}
+.user:hover .userIcon{
+    fill: #A6BB8D;
+}

@@ -57,10 +57,13 @@ footer {
   display: grid;
   grid-template-columns: 1fr 1fr;
   background-color: #3C6255;
-  height: 100vh;
+  height: 50vh;
 }
 
 .footerDiv{
+  height: 100%;
+  padding-top: 20px;
+  top: 20px;
   font-size: 30px;
   display: flex;
   flex-direction: column;

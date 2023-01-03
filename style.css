@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap');
+
+*{
+  box-sizing: border-box;
+  font-family: 'Chakra Petch', sans-serif;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+html, body{
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+article{
+  height: 100vh;
+  overflow: hidden;
+  overflow-y: auto;
+  perspective: 3px;
+}
+
+header{
+  background-image: url("media/img/normal/tesla1.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+
+section {
+  background-size: cover;
+  color: var(--text-color);
+  background-color: var(--bg, --color-black);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+}
+
+section.image {
+  background-position: center center;
+  transform: translateZ(-1px) scale(1.5);
+  background-size: cover;
+  z-index: -1;
+  height: 100vh;
+  color: var(--text-color);
+}
+
+section.text {
+  height: 80vh;
+}
+
+footer {
+  position: relative;
+  display: block;
+  background-color: black;
+  height: 100vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer h3 {
+  font-weight: normal;
+  color: var(--color-blue);
+}
+
+/*--------------------------------*/
+.fullscreenVideo{
+  position: fixed;
+  left: 0;
+  top: 0;
+  min-width: 100%;
+  min-height: 100%;
+}

@@ -57,7 +57,7 @@ section.image {
   background-size: cover;
   z-index: -1;
   height: 100vh;
-  width: 100%;
+  width: auto;
   color: var(--text-color);
 }
 
@@ -151,6 +151,18 @@ nav ul li a:hover, nav ul li a:active{
 }
 nav ul li a#aktiv{
   background-image: linear-gradient(45deg, rgba(97, 135, 110, 100), rgba(97, 135, 110, 2));
+}
+
+/*------------Table------------*/
+table{
+  font-size: 16px;
+  border-collapse: collapse;
+  margin: auto;
+}
+td, th {
+  background-color: #3C6255;
+  border: 1px solid #EAE7B1;
+  padding: 10px;
 }
 
 @media only screen and (max-width: 500px){

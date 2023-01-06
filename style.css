@@ -67,13 +67,18 @@ section.text {
 
 .tartalom{
   margin: auto 10% auto 10%;
+  font-size: 20px;
 }
 .tartalom :is(p, li) {
   text-align: justify;
 }
 
 .tartalom   h2{
-  font-size: 40px;
+  font-size: 50px;
+}
+
+.tartalom h3{
+  font-size: 30px;
 }
 
 footer {
@@ -165,7 +170,24 @@ td, th {
   padding: 10px;
 }
 
+@media only screen and (max-width: 700px){
+  .tartalom   h2{
+    font-size: 40px;
+  }
+
+  .tartalom   h3{
+    font-size: 20px;
+  }
+
+  .tartalom{
+    font-size: 15px;
+  }
+}
 @media only screen and (max-width: 500px){
+  .tartalom   h2{
+    font-size: 30px;
+  }
+
   nav ul{
     display: inline;
   }
